@@ -15,12 +15,14 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
+import org.jointheleague.graphical.robot.Robot;
+
 public class _02_FindTheHiddenButton implements ActionListener{
 	JFrame window;
 	JPanel panel;
 	
 	//1. create an array of JButtons. Don't initialize it yet.
-	
+	JButton[] button = new JButton[5];
 	//2 create an int variable called hiddenButton
 	
 	public static void main(String[] args) {
