@@ -59,7 +59,7 @@ public class _02_FindTheHiddenButton implements ActionListener{
 		JOptionPane.showMessageDialog(null, "click on the hidden button");
 		//13. initialize the hiddenButton variable to a random number less than the int created in step 3
 		Random r = new Random();
-		int hiddenButton = r.nextInt(num);	
+		hiddenButton = r.nextInt(num);	
 		//14. Set the text of the JButton located at hiddenButton to  "ME"
 button[hiddenButton].setText("me");
 		//15. Use Thread.sleep(1000); to pause the program.
@@ -80,11 +80,11 @@ button[hiddenButton].setText("");
 		
 		//17. if the hiddenButton is clicked, tell the user that they win.
 		if (button[hiddenButton] == buttonClicked) {
-			JOptionPane.showMessageDialog(null, "try again");
+			JOptionPane.showMessageDialog(null, "yay you won");
 		}
 		//18. else tell them to try again
 		else {
-			JOptionPane.showMessageDialog(null, "yay you won");
+			JOptionPane.showMessageDialog(null, "try again");
 		}
 	}
 }
