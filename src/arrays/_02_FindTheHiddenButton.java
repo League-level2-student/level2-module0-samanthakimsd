@@ -65,7 +65,7 @@ button[hiddenButton].setText("me");
 		//15. Use Thread.sleep(1000); to pause the program.
 		//    Surround it with a try/catch - use Eclipse helper for this
 try {
-	Thread.sleep(1000);
+	Thread.sleep(70);
 } catch (InterruptedException e) {
 	// TODO Auto-generated catch block
 	e.printStackTrace();
