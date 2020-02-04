@@ -9,8 +9,7 @@ size(600,600);
 i=new int[width];
   //4. initialize the ints in the array with random numbers
   //   from 0 to the built in height variable
-random(600);
-int i= random;
+  int[]i= new int[600];
   //5. call the noStroke() method
 noStroke();
 }
@@ -21,7 +20,7 @@ background(#D4FFAD);
   //7. set the color for your graph
 color(#FFCBDF);
   //8. draw a rectangle for each int in your array.
-
+rect();
   //   the x value will be the current index in the array
   //   the y value will the height variable
   //   the width is 1 (one)
@@ -31,7 +30,7 @@ color(#FFCBDF);
   //9. call the stepSort method
 stepSort(i);
   //10. extract the code that randomizes the array into a method.
-
+  
   //11. call the method you made in step 10 when the mouse is pressed
 
 }
