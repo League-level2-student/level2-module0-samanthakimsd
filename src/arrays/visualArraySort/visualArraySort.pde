@@ -9,8 +9,8 @@ size(600,600);
 i=new int[width];
   //4. initialize the ints in the array with random numbers
   //   from 0 to the built in height variable
-random r = new random();
-   i = r.nextInt();  
+random(600);
+int i= random;
   //5. call the noStroke() method
 noStroke();
 }
@@ -21,7 +21,7 @@ background(#D4FFAD);
   //7. set the color for your graph
 color(#FFCBDF);
   //8. draw a rectangle for each int in your array.
-rect(i);
+
   //   the x value will be the current index in the array
   //   the y value will the height variable
   //   the width is 1 (one)
